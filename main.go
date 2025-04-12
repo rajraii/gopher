@@ -1,9 +1,11 @@
 package main
 
 import (
-	"gopher/quizz"
+	// "gopher/quizz"
+	"gopher/urlShortner"
 )
 
 func main() {
-	quizz.BuildQuiz()
+	// quizz.BuildQuiz()
+	urlShortner.UrlShortner()
 }
