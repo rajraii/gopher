@@ -2,10 +2,12 @@ package main
 
 import (
 	// "gopher/quizz"
-	"gopher/urlShortner"
+	// "gopher/urlShortner"
+	"gopher/adventure"
 )
 
 func main() {
 	// quizz.BuildQuiz()
-	urlShortner.UrlShortner()
+	// urlShortner.UrlShortner()
+	adventure.BuildAdventure()
 }
